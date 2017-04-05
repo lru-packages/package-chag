@@ -1,6 +1,6 @@
 NAME=chag
 VERSION=1.1.4
-ITERATION=1
+ITERATION=1.lru
 PREFIX=/usr/local/bin
 LICENSE=MIT
 VENDOR="Michael Dowling"
@@ -20,7 +20,6 @@ package:
 		-n $(NAME) \
 		-v $(VERSION) \
 		-m $(MAINTAINER) \
-		--epoch 1 \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
 		--vendor $(VENDOR) \
